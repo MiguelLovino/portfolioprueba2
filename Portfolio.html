@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+   <TITLE>Colores en CSS</TITLE>
+   <link href="Portfolio.css" rel="stylesheet" type="text/css">
+   <meta charset="utf-8">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </HEAD>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+ 
+<BODY>
+   
+<div class="container-sm">
+                    <!-- barra de menu-->
+
+  <div class="d-flex  justify-content-end" id="icoredes">
+    <a class="menu m-1 "  href="https://www.facebook.com/" alt="Facebook" target="_blank"><img class="menu" src="imagenes/facebook.png"></a>
+    <a class="menu m-1" href="https://instagram.com/" alt="Instagram" target="_blank"><img class="menu" src="imagenes/instagram.png"></a>
+    <button type="submit" class="btn" id="btningresar" data-bs-toggle="modal" data-bs-target="#exampleModal">Ingresar</button> 
+
+    <!-- el modal login -->
+    
+    <div class="modal" id="exampleModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="container" id="Vloginl">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" id="loginclose"></button>
+                <div class="mb-3">
+                  
+                  <label for="formGroupExampleInput" class="form-label">Usuario</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="formGroupExampleInput"
+                    placeholder="Ingresar Usuario"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput2" class="form-label"
+                    >contraseña</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="formGroupExampleInput2"
+                    placeholder="ingresar contraseña"
+                  />
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                  <label class="form-check-label" for="exampleCheck1">Recordar</label>
+                </div>
+              <div>
+               <button type="submit" class="btn" id="btningresar" >Ingresar</button> 
+                
+              </div>
+              
+              </div>
+            
+          </div>
+          <!--  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+            
+               </div>
+      </div>
+    </div> 
+          
+          
+            
+          
+    
+    
+
+
+  </div>
+                    <!--banner-->
+  <div class="d-flex" id="baner">
+ <img src="imagenes/banner portfolio.jpg" class="img-fluid" id="portbaner">
+  </div>
+                    <!--contactos-->
+  <div class="d-flex flex-column">
+    <div class="img-fluid" id="divcaraport">
+      <img src="imagenes/CARA PORTFOLIO.jpeg" class="img-fluid" id="caraport" >
+    </div>
+    <div ><h3>Lovino Miguel Angel</h3></div>
+                 <!--contacto-->
+    <div id="logotip" ><a class="menu m-1" href="" alt="wasap" target="_blank"><img class="menu" src="imagenes/logotipo-Whatsapp.jpg" ></a></div>
+  </div>
+    <!-- descripcion--> 
+    <div class="d-flex " id="descripcion"> 
+      <h2><p>Lorem Earuas, imusloribus porro rem incidunt ipsam. Nobis, quidem!</p></h3>
+      </div>
+    <div class="col-sm" id="expe">
+      <h2>Metalurgica</h2> <br>
+      <ul>
+        <li>completar</li>
+        <li>completar</li>
+      </ul>
+    </div>
+
+</div>
+
+
+  </BODY>
+
+</HTML>

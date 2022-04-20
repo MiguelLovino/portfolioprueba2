@@ -1,0 +1,67 @@
+  .menu {
+    height: 30px;
+    width: 30px;
+     }
+
+  #icoredes{
+    background-color: rgb(203, 205, 214);
+    height: 38px;
+    margin-bottom: 4px;
+    
+}
+
+#divcaraport {
+  background-color: rgb(203, 205, 214);
+  margin: 1% 5% 1% 5%;
+}
+
+#caraport {
+  max-width: 19%;
+  border-radius: 50%;
+  margin-top: 5px; 
+}
+h3 {
+  background-color: rgb(163, 138, 106);
+  margin: 1% 45% 1% 5%;
+}
+
+#logotip {
+margin-left: 5%;
+  
+}
+
+#descripcion {
+  background-color: rgb(160, 151, 151);
+  margin: 1% 15% 1% 15%;
+} 
+#btningresar {
+  background-color:  rgb(146, 3, 3);
+}
+
+
+#Vlogin {
+  width: 30%;
+  height: 45%;
+  
+  margin-top: 6%;
+  border-style: solid;
+  border-radius: 5%;
+  
+
+
+  
+}
+
+#btningresar {
+background-color: rgb(145, 145, 235);
+
+}
+
+#loginclose {
+  
+
+ margin-left: 90%;
+ margin-top: 5%;
+
+}
+ 
